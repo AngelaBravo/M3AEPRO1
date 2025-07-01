@@ -3,6 +3,6 @@
 Home: Angela Bravo  
 Shope: Khris Ibañez se linkea con pagina catalogo  
 About: Marcos castro se linkea con pagina About us  
-Contactanos: por ahora esta linkeado a la pagina details de Sebastian Palacios    
+Contactanos: No está linkeado a nada   
 
-La idea final es que en la pagina Shope, los botonos que ahí hay se linkeen con la pagina detalle de Sebastian palacios.
+La pagina Shope, se linkea con la pagina details con el link Woman-Detalle, de Sebastián Palacios

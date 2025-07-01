@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    height: 1186px;
+    padding: 20px 160px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.catalogoNav__links{
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+.catalogoNav__link, .catalogoNav__separador{
+    color: #876363;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    
+}
+.catalogoNav__links :last-child{
+    color: #171212;
+}
+.catalogoNav__titulo{
+    display: flex;
+    padding: 16px;
+    color: #171212;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.catalogoNav__categorias{
+    gap: 12px;
+    display: flex;
+    padding: 12px 12px 12px 16px;
+    
+}
+.catalogoNav__boton{
+    padding: 0 16px;
+    height: 32px;
+    background: #F5F0F0;
+    border: none;
+    border-radius: 8px;
+    color: #171212;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+.productosBox, .productosBoxNuevos{
+    padding: 16px;
+}
+.productosBox__titulo, .productosBoxNuevos__titulo{
+    padding: 0 0 8px 0;
+}
+.productosBox__items, .productosBoxNuevos__items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0 16px 0;
+    gap: 12px;
+}
+.productosBox__item, .productosBoxNuevos__item{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 12px;
+}
+.productosBox__nombre, .productosBoxNuevos__nombre{
+    color: #171212;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.productosBox__precio, .productosBoxNuevos__precio{
+    color: #876363;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.productosNav{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+.productosNav__boton, .productosNav__numeroPag{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    background: none;
+    border-radius: 20px;
+}
+.productosNav button:nth-of-type(2){
+    background-color: #F5F0F0;
+    color: #171212;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+}
+.productosNav button:nth-of-type(n+3):nth-of-type(-n+5) {
+    text-align: right;
+    color: #171212;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+

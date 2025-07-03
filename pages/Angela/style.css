@@ -1,13 +1,48 @@
 /* Hola hola */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-#fprincipal,
-#uno,
-#dos {
+.banner-section,
+.cards {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-button {
+.banner-section {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 928px;
+  margin: 0 auto;
+  padding: 12px;
+  width: 928px;
+  margin: 0 auto;
+  padding: 12px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(../../assets/img/Angela/Angela-F-Principal.png) lightgray 50% / cover no-repeat;
+}
+
+.banner-section__titulo,
+.banner-section__texto {
+  color: #fff;
+  margin: 0 0 20px 0;
+  align-self: flex-start;
+}
+
+.banner-section__texto {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.banner-section__titulo {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -2px;
+}
+
+.banner-section__btn {
   height: 48px;
   padding: 8px 20px;
   margin-top: 20px;
@@ -18,93 +53,52 @@ button {
   background: #e82933;
   color: white;
 }
-#fprincipal {
-  height: 480px;
-  display: flex; 
-  flex-direction: column;
-  justify-content: end; 
-  align-items: center; 
-  width: 928px;
-  margin: 0 auto;
-  padding: 12px;
-  width: 928px;
-  margin: 0 auto;
-  padding: 12px;
-  background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
-    url(../../assets/img/Angela/Angela-F-Principal.png) lightgray 50% / cover
-      no-repeat;
-  h1,
-  p {
-    color: #fff;
-    margin: 0 0 20px 0;
-    align-self: flex-start;
-  }
-  p {
-    color: #fff;
-    text-align: center;
-    font-feature-settings: "dlig" on;
-    font-family: "Plus Jakarta Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-  }
-  h1 {
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 60px; /* 125% */
-    letter-spacing: -2px;
-  }
-}
 
-.fotos {
+.cards__container {
   margin: 0 auto;
   width: 928px;
-  display: flex; /* para alinear el contenido */
-  justify-content: center; /* para centrar el contenido verticalmente */
+  display: flex;
+  justify-content: center;
   border-radius: 8px;
   gap: 12px;
 }
 
-#uno,
-#dos h1 {
+.cards__titulo {
   max-width: 928px;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
-.fotos img {
-  /* flex: 0 1 auto;  */
+.card__img {
   max-width: calc((928px - 16px) / 3);
   height: auto;
 }
 
-figure {
+.card {
   margin: 0;
   padding: 0;
+}
 
-  h2 {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-  }
-  p {
-    color: #876363;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px; /* 150% */
-  }
+.card__titulo {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.card__texto {
+  color: #876363;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 figcaption * {
   margin: 0;
   padding: 0;
 }
+
 figcaption {
   margin-top: 16px;
 }

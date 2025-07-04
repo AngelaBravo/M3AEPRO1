@@ -7,43 +7,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="navbarBEM.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logoMarca">
-                <figure>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo-marca">
+                <figure class="header__logo">
                     <img src="assets/IconoCuadrado.svg" alt="Logo">
                 </figure>
-                <h3 class="marca">Te lo Vendo</h3>
-            </div>
-            <div class="navbar">
-                <div class="enlaces">
-                    <a class="enlace" href="../../index.html">Home</a>
-                    <a class="enlace" href="./Index.html">Shop</a>
-                    <a class="enlace" href="../Marcos/index.html">About</a>
-                    <a class="enlace" href="">Contact</a>
+                <h3 class="header__marca">Te lo Vendo</h3>
                 </div>
-                <div class="iconos">
-                    <figure class="figure-search">
-                        <svg class="icono-lupa" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5306 18.4694L14.8366 13.7762C17.6629 10.383 17.3204 5.36693 14.0591 2.38935C10.7978 -0.588237 5.77134 -0.474001 2.64867 2.64867C-0.474001 5.77134 -0.588237 10.7978 2.38935 14.0591C5.36693 17.3204 10.383 17.6629 13.7762 14.8366L18.4694 19.5306C18.7624 19.8237 19.2376 19.8237 19.5306 19.5306C19.8237 19.2376 19.8237 18.7624 19.5306 18.4694ZM1.75 8.5C1.75 4.77208 4.77208 1.75 8.5 1.75C12.2279 1.75 15.25 4.77208 15.25 8.5C15.25 12.2279 12.2279 15.25 8.5 15.25C4.77379 15.2459 1.75413 12.2262 1.75 8.5Z" fill="#876363"/>
+                <div class="header__navbar">
+                    <div class="header__enlaces">
+                        <a class="header__enlace" href="../../index.html">Home</a>
+                        <a class="header__enlace" href="./Index.html">Shop</a>
+                        <a class="header__enlace" href="../Marcos/index.html">About</a>
+                        <a class="header__enlace" href="">Contact</a>
+                    </div>
+                <div class="header__iconos">
+                    <figure class="header__busqueda">
+                        <svg class="header__icono-lupa" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5306 18.4694L14.8366 13.7762C17.6629 10.383 17.3204 5.36693 14.0591
+                             2.38935C10.7978 -0.588237 5.77134 -0.474001 2.64867 2.64867C-0.474001 5.77134 -0.588237 10.7978 2.38935 14.0591C5.36693 
+                             17.3204 10.383 17.6629 13.7762 14.8366L18.4694 19.5306C18.7624 19.8237 19.2376 19.8237 19.5306 19.5306C19.8237 19.2376 19.8237
+                              18.7624 19.5306 18.4694ZM1.75 8.5C1.75 4.77208 4.77208 1.75 8.5 1.75C12.2279 1.75 15.25 4.77208 15.25 8.5C15.25 12.2279 12.2279
+                               15.25 8.5 15.25C4.77379 15.2459 1.75413 12.2262 1.75 8.5Z" fill="#876363"/> 
                         </svg>
-                        <input class="search" placeholder="Search">
+                        <input class="header__search" placeholder="Search">
                     </figure>
-                    <figure>
-                        <img class="icono-carrito" src="assets/Carrito.svg">
+                    <figure class="header__icono">
+                        <img class="header__icono-carrito" src="assets/Carrito.svg">
                     </figure>
-                    <figure>
-                        <img class="icono-perfil" src="assets/Perfil-Nav.png">
+                    <figure class="header__icono">
+                        <img class="header__icono-perfil" src="assets/Perfil-Nav.png">
                     </figure>
                 </div>
             </div>
         </nav>
-    </header>
+</header>
     <main>
         <div class="catalogoNav">
             <div class="catalogoNav__links">

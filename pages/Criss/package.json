@@ -1,0 +1,12 @@
+{
+  "name": "telovendo-criss",
+  "version": "1.0.0",
+  "description": "Compilación Sass para la página Criss",
+  "scripts": {
+    "sass:watch": "sass pages/Criss/style.scss pages/Criss/css/styles.css --watch",
+    "sass:build": "sass pages/Criss/style.scss pages/Criss/css/styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}

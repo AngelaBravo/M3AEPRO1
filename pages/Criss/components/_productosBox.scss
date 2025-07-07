@@ -1,0 +1,41 @@
+.productosBox, .productosBoxNuevos {
+  padding: 16px;
+}
+
+.productosBox__titulo, .productosBoxNuevos__titulo {
+  padding: 0 0 8px 0;
+}
+
+.productosBox__items, .productosBoxNuevos__items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  gap: 12px;
+}
+
+.productosBox__item, .productosBoxNuevos__item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+.productosBox__nombre, .productosBoxNuevos__nombre {
+  color: #171212;
+  font-feature-settings: 'dlig' on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.productosBox__precio, .productosBoxNuevos__precio {
+  color: #876363;
+  font-feature-settings: 'dlig' on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}

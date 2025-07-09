@@ -1,0 +1,49 @@
+@use '../abstracts/variables';
+
+main {
+  min-height: 900px;
+  padding: 20px 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detail__section {
+  width: 960px;
+  max-width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: variables.$bg-white;
+}
+
+.detail__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: variables.$text-color;
+  margin: 20px 0 8px 0;
+}
+
+.detail__desc {
+  font-size: 16px;
+  color: variables.$text-color;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  width: 928px;
+  max-width: 100%;
+}
+
+.detail__img-wrapper {
+  width: 928px;
+  height: 619px;
+  background: variables.$bg-white;
+  border-radius: variables.$radius;
+  overflow: hidden;
+  margin-bottom: 24px;
+  .detail__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

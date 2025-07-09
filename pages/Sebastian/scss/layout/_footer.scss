@@ -1,0 +1,20 @@
+.footer {
+  background: #f5f5f5;
+  padding: 24px;
+  color: #555;
+  .footer__items {
+    margin-bottom: 8px;
+    a {
+      color: #333;
+      text-decoration: none;
+      margin-right: 12px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .footer__derechos {
+    font-size: 13px;
+    color: #888;
+  }
+}

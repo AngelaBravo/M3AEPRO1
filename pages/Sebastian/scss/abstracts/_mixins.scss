@@ -1,0 +1,13 @@
+@use 'variables';
+
+@mixin button-base {
+  padding: 0 16px;
+  height: 40px;
+  border: none;
+  border-radius: variables.$radius; 
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  cursor: pointer;
+  transition: background 0.2s;
+}

@@ -1,0 +1,15 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+@use 'sass:color';
+
+.detail__add-cart {
+  @include mixins.button-base;
+  margin-top: 8px;
+  background: variables.$primary-color;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background: color.adjust(variables.$primary-color, $lightness: -10%);
+  }
+}

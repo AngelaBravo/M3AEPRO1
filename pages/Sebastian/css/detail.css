@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: #fff;
+  color: #171212;
+}
+
+.detail__breadcrumb {
+  display: flex;
+  gap: 8px;
+  padding: 16px 0 0 0;
+  font-size: 16px;
+  color: #876363;
+}
+.detail__breadcrumb-link, .detail__breadcrumb-separator {
+  color: #876363;
+  text-decoration: none;
+  font-weight: 500;
+}
+.detail__breadcrumb-current {
+  color: #171212;
+  font-weight: 500;
+}
+
+.detail__add-cart {
+  padding: 0 16px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+  background: #E82933;
+  color: #fff;
+}
+.detail__add-cart:hover, .detail__add-cart:focus {
+  background: rgb(200.4556962025, 21.5443037975, 30.9113924051);
+}
+
+main {
+  min-height: 900px;
+  padding: 20px 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detail__section {
+  width: 960px;
+  max-width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+}
+
+.detail__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #171212;
+  margin: 20px 0 8px 0;
+}
+
+.detail__desc {
+  font-size: 16px;
+  color: #171212;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  width: 928px;
+  max-width: 100%;
+}
+
+.detail__img-wrapper {
+  width: 928px;
+  height: 619px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.detail__img-wrapper .detail__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  background: #f5f5f5;
+  padding: 24px;
+  color: #555;
+}
+.footer .footer__items {
+  margin-bottom: 8px;
+}
+.footer .footer__items a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 12px;
+}
+.footer .footer__items a:hover {
+  text-decoration: underline;
+}
+.footer .footer__derechos {
+  font-size: 13px;
+  color: #888;
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icono-carrito,
+.icono-perfil {
+  width: 20x;
+  height: 20px;
+  display: inline-block;
+  object-fit: contain;
+  background: transparent;
+  border: none;
+  color:#171212
+}
+*{
+    margin: 0;
+}
+header nav{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 12px 40px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid #e5e8eb;
+}
+header nav .logoMarca{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+header nav .marca, .enlace{
+    color: #121712;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    
+}
+header nav .marca{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+header nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+header nav .navbar .enlaces{
+    display: flex; 
+    height: 40px;
+    align-items: center;
+    gap: 36px;
+    padding-left: 32px;
+    }
+header nav .navbar .enlaces .enlace{
+    align-self: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration: none;
+    
+}
+
+header nav .navbar .iconos{
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+    height: 40px ;
+}
+
+header nav .navbar .iconos figure{
+    display: flex;
+    height: 40px;
+    max-width: 480px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+     
+}
+header nav .navbar .iconos figure:nth-child(-n+2) {
+  background: #F5F0F0;
+}
+
+header nav .navbar .iconos .icono{
+    width: 20px;
+    height: 20px;
+    fill: #121712;
+}
+header nav .navbar .iconos .icono-lupa{
+    padding-left: 16px;
+}
+
+header nav .navbar .iconos .search{
+    all: unset;
+    padding: 8px 16px 8px 8px;
+    width: 96px;
+    color: #876363 ; 
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*# sourceMappingURL=detail.css.map */

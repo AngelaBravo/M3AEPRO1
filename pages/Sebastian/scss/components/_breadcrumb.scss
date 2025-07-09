@@ -1,0 +1,20 @@
+@use '../abstracts/variables';
+
+.detail__breadcrumb {
+  display: flex;
+  gap: 8px;
+  padding: 16px 0 0 0;
+  font-size: 16px;
+  color: variables.$muted-text;
+
+  &-link, &-separator {
+    color: variables.$muted-text;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  &-current {
+    color: variables.$text-color;
+    font-weight: 500;
+  }
+}
